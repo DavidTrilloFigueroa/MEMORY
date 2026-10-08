@@ -1,0 +1,25 @@
+{
+  "input_directory": "audios",
+  "output_directory": "transcripciones",
+  "model_directory": "modelos/faster-whisper-large-v3/edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "model_repository": "Systran/faster-whisper-large-v3",
+  "model_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "device": "cuda",
+  "device_index": 0,
+  "compute_type": "float16",
+  "transcription": {
+    "language": "es",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "vad_filter": false,
+    "no_speech_threshold": 0.6,
+    "log_prob_threshold": -1.0,
+    "compression_ratio_threshold": 2.4,
+    "word_timestamps": false,
+    "without_timestamps": false,
+    "clip_timestamps": "0",
+    "log_progress": false
+  }
+}

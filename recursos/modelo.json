@@ -1,0 +1,37 @@
+{
+  "repo": "Systran/faster-whisper-large-v3",
+  "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "files": [
+    {
+      "rfilename": "config.json",
+      "blobId": "75336feae814999bae6ccccdecf177639ffc6f9d",
+      "size": 2394
+    },
+    {
+      "rfilename": "model.bin",
+      "blobId": "e91bbba72de41ca3cdc9a656b17aa9407c7e85b6",
+      "size": 3087284237,
+      "lfs": {
+        "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+        "size": 3087284237,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "931c77a740890c46365c7ae0c9d350ba3cca908f",
+      "size": 340
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "3a5e2ba63acdcac9a19ba56cf9bd27f185bfff61",
+      "size": 2480617
+    },
+    {
+      "rfilename": "vocabulary.json",
+      "blobId": "0adcd01e7c237205d593b707e66dd5d7bc785d2d",
+      "size": 1068114
+    }
+  ],
+  "source": "https://huggingface.co/api/models/Systran/faster-whisper-large-v3?blobs=true"
+}
